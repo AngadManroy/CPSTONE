@@ -1,0 +1,131 @@
+:root {
+  /* Define color scheme */
+  --dark-bg: #1f1f38;
+  --light-bg: #2c2c6c;
+  --gradient-start: #ff9068;
+  --gradient-end: #ff4b1f;
+  --input-bg: #ffffff;
+  --input-border-color: #e7e7e7;
+  --button-bg: #ff758c;
+  --button-bg-hover: #ff7eb3;
+  --placeholder-color: #a8a8a8;
+}
+.htel{
+  color: blanchedalmond !important;
+}
+#pdiv{
+  margin-top: 2rem;
+}
+.alterBut{
+  margin-top:3rem;
+}
+#rbtn{
+  margin-top:1rem;
+}
+
+.container {
+  margin-top:6rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+#bforhos{
+  margin-top: 6rem;
+
+}
+.image-style{
+  max-width: 250px;
+  height: auto;
+}
+#oimg{
+  max-width: 300px;
+  height: auto;
+}
+#insimgg img{
+  height: 200px;
+    width: 250px;
+
+}
+#ichid{
+  margin-top: 53px;
+    margin-bottom: -13px;
+}
+#ffo{
+  margin-top: 5rem;
+}
+.mycont2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#image-style2{
+  max-width: 400px;
+  height: auto;
+
+}
+#ifim3{
+  max-width: 400px;
+  margin-right: 2rem;
+  height: auto;
+
+}
+
+.form-card {
+   background: #23263a; /* Dark blue background */
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.5);
+  color: #fff;
+  width: 300px; /* Adjust the width as needed */
+}
+
+.form-card h4 {
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  background-color: var(--input-bg);
+  border: 1px solid var(--input-border-color);
+  border-radius: 25px;
+  padding: 10px 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+#doc_adhaar_number{
+  width: 110%;
+}
+
+.form-control::placeholder {
+  color: var(--placeholder-color);
+}
+.dbutton{
+    margin: 0.5rem;
+}
+
+
+.tc{
+  color:white;
+}
+.btn-custom:hover {
+  background-image: linear-gradient(to right, var(--button-bg), var(--button-bg-hover));
+}
+#doc_adhaar_number{
+  margin-top: 1.5rem;
+}
+/* Additional styles for icons and other elements can be added here */

@@ -1,0 +1,11 @@
+.background-with-opacity {
+    /* Set your desired background image */
+    background-image: url('../img/pexels-bri-schneiter-346529.jpg');
+  
+    /* Set opacity */
+    opacity: 0.7; /* You can adjust the value between 0 and 1 */
+  
+    /* Set other background properties as needed */
+    /* background-size, background-position, etc. */
+  }
+  

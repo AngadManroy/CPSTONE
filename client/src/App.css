@@ -1,0 +1,63 @@
+ /*body {
+  background-image: url('./Components/img/pexels-bri-schneiter-346529.jpg'); 
+   /* background-image: url('./Components/img/62624.jpg')*/; 
+   /* background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; 
+ }   */ 
+ body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+body {
+  position: relative;
+}
+
+body::before {
+  content: "";
+  background-image: url('./Components/img/pexels-bri-schneiter-346529.jpg');
+  /* Adjust the opacity value as needed */
+  opacity: 1; /* Change this value to set the desired opacity */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Ensure the overlay is behind other content */
+}
+
+
+.App{
+  /* background-image: url("./Components/Images/doc-patient1.jpg"); */
+  height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 30%; */
+  text-align: center
+}
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #0d182c;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
