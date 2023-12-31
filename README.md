@@ -1,4 +1,4 @@
-#Blockchain Based EHR Framework demonstrated for Parkinson's disease
+##Blockchain Based EHR Framework demonstrated for Parkinson's disease
 Implemented an electronic health record (EHR) framework using solidity and integrated with a Parkinson's Progression Forecaster machine learning model
 
 
@@ -14,7 +14,7 @@ Execution will start from __App.js__ file in client directory.
 
 
 ## TO-DO 
-1) Improve UI design.
-2) Upload ML model
+1) Upload ML model
+2) Add autoamtion smartcontracts
 
 
